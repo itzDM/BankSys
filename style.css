@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body {
+  background: linear-gradient(90deg, #202063, #7b2323d6);
+}
+
+.traoption {
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  line-height: 80px;
+  padding: 20px;
+  color: aliceblue;
+}
+.table-danger > td,
+.table-danger > th, 
+.table-info > td,
+.table-info > th, 
+.table-light > td,
+.table-light > th, 
+.table-info,
+.table-danger,
+.table-light {
+  background-color: #ead6d800 !important;
+  color: aliceblue;
+}
+
+.btn {
+  margin: 50px;
+  color: #ffff;
+}
